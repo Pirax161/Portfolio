@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!-- ############ -->
+    <!-- Navigation -->
+    <!-- ############ -->
+
+    <header>
+        <a href="#" class="logo">AXEL<span>Pirate</span><i id="mode" class="bx bx-sun"></i></a>
+        <i id="menu-burger" class="bx bx-menu"></i>
+        <nav class="navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ############ -->
+    <!-- Home -->
+    <!-- ############ -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>ITERITEKA Axel</h1>
+            <h3>and I am a <span class="multiple"></span></h3>
+            <p>I am a Cybersecurity Engineering student with a strong passion for protecting digital systems and networks. As an aspiring Ethical Hacker and beginner Pentester, I am building hands-on skills in identifying vulnerabilities, conducting penetration tests, and applying secure practices to strengthen defenses. Curious, motivated, and eager to grow, I am continuously learning and experimenting with real-world tools and techniques in the field of cybersecurity.</p>
+
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./images/axel_01.png" alt="">
+        </div>
+    </section>
+
+    <!-- ############ -->
+    <!-- About -->
+    <!-- ############ -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/axel_02.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="section-title"><span>About</span></h2>
+            <h3>Cybersecurity Engineering Student</h3>
+            <p>I am a Cybersecurity Engineering student with a strong passion for digital security and technology. I apply ethical hacking principles to identify vulnerabilities and improve the security of websites, applications, and networks. As a beginner pentester and web developer, I perform controlled tests, develop responsive web applications, and provide actionable recommendations. Through these experiences, I continuously enhance my practical skills and gain hands-on expertise in both cybersecurity and web development.</p>
+            <a href="CV.docx" download class="btn">Download my CV</a>
+        </div>
+    </section>
+
+    <!-- ############ -->
+    <!-- services -->
+    <!-- ############ -->
+
+    <section class="services" id="services">
+        <h2 class="section-title">My <span>Services</span></h2>
+        <div class="services-content">
+            <div class="services-box">
+                <i class="bx bx-lock-alt"></i>
+                <h3>Ethical Hacker</h3>
+                <p>Offering foundational ethical hacking services for learning labs and small projects, including basic vulnerability assessments, penetration testing in simulated environments, and identifying security weaknesses in websites or applications. Provides guidance on secure coding practices and network safety, applying ethical hacking principles responsibly while building practical cybersecurity skills.</p>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-terminal"></i>
+                <h3>Pentester</h3>
+                <p>Perform penetration tests on small projects and simulated environments to identify potential security risks. I analyze networks, applications, and systems to discover vulnerabilities that could be exploited. I provide detailed reports with actionable recommendations to improve overall security. Through these activities, I continuously develop my practical skills in ethical hacking and cybersecurity testing.</p>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'  ></i> 
+                <h3>Web Developer</h3>
+                <p>Design and develop responsive websites and web applications using modern technologies. I write clean, maintainable code and implement best practices for performance and security. I collaborate on projects to create user-friendly interfaces and seamless user experiences. Through these projects, I continuously improve my technical skills and stay updated with the latest web development trends</p>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ############ -->
+    <!-- portfolio -->
+    <!-- ############ -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./images/projet-01.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>University Website</h4>
+                    <p>Student portal site</p>
+                    <a href="https://pirax161.github.io/Universite/" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/projet-02.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Wordle Game</h4>
+                    <p>Text-based word puzzle with Python</p>
+                    <a href="https://github.com/Pirax161/wordle" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/projet-03.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Pentesting</h4>
+                    <p>Vulnerability assessment lab</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/projet-04.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>DoS Simulation Project</h4>
+                    <p>Denial-of-service lab</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/projet-05.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Custom Firewall</h4>
+                    <p>Network traffic filter</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ############ -->
+    <!-- contact -->
+    <!-- ############ -->
+
+    <section class="contact" id="contact">
+        <h2 class="section-title"><span>Contact</span> Us</h2>
+        <form action="#" id="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Name" name="from_name">
+                <input type="email" placeholder="Email" name="from_email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="GSM" name="gsm">
+                <input type="text" placeholder="Sujet" name="subject">
+            </div>
+            <textarea placeholder="Message" name="message"></textarea>
+            <input type="submit" value="Send" class="btn">
+        </form>
+        <script>
+            (function(){
+                emailjs.init("mwXFVTOPK0kcr1VOg"); 
+            })();
+            document.getElementById("contact-form").addEventListener("submit", function(e) {
+                e.preventDefault();
+
+                emailjs.sendForm("service_i3f6cn6", "template_jm7pjkl", this)
+                    .then(() => {
+                    alert("Message envoyé avec succès ✅");
+                    }, (error) => {
+                    alert("Erreur ❌ : " + JSON.stringify(error));
+                    });
+            });
+            </script>
+    </section>
+
+    <!-- ############ -->
+    <!-- footer -->
+    <!-- ############ -->
+
+    <footer>
+        <div class="footer-txt">
+            <p>Copyright &copy; 2025 Pirax. Designed & Secured with care.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home" class="btn-home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
