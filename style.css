@@ -569,6 +569,11 @@ footer {
         font-size: 50%;
     }
 
+    .contact form {
+        width: 100%;
+        padding: 0 1rem; /* un peu d’espace sur les côtés */
+    }
+
     .contact form .input-box input {
         width: 100%;
     }
@@ -579,4 +584,5 @@ footer {
         width: 90vw;
         max-width: 100%;
     }
+
 }
